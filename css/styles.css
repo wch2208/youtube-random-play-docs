@@ -12,12 +12,14 @@ body {
   padding: 20px;
   position: fixed;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
 }
 
 .logo h1 {
   color: #333;
   font-size: 24px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .nav-links {
@@ -96,4 +98,143 @@ body {
 
 .policy-content li {
   margin-bottom: 8px;
+}
+
+.install-guide {
+  margin-bottom: 25px;
+}
+
+.install-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a73e8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  transition: all 0.2s;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  box-sizing: border-box;
+  letter-spacing: 0.2px;
+}
+
+.install-button:hover {
+  background-color: #1557b0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.store-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+}
+
+.guide-content {
+  max-width: 800px;
+  background: #f8f9fa;
+  padding: 24px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.guide-description {
+  color: #444;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.guide-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: white;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  color: #24292e;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.guide-link:hover {
+  background: #f1f1f1;
+  border-color: #d1d5da;
+}
+
+.guide-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.external-link-icon {
+  margin-left: 6px;
+  color: #666;
+}
+
+.guide-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.step {
+  background: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.step-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  background: #1a73e8;
+  color: white;
+  border-radius: 50%;
+  font-weight: 500;
+}
+
+.step h3 {
+  margin: 0;
+  color: #24292e;
+  font-size: 18px;
+}
+
+.step p {
+  color: #444;
+  line-height: 1.6;
+  margin: 0 0 16px;
+}
+
+.step-image {
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid #e1e4e8;
+}
+
+.step-link {
+  display: inline-flex;
+  align-items: center;
+  color: #1a73e8;
+  text-decoration: none;
+  font-weight: 500;
+  gap: 4px;
+}
+
+.step-link:hover {
+  text-decoration: underline;
 }
